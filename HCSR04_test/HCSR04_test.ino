@@ -60,24 +60,24 @@ void loop() {
   Left_Front_Distance = ultrasonic_read(Left_Front_Trig_Pin, Left_Front_Echo_Pin);
   Left_Distance = ultrasonic_read(Left_Trig_Pin, Left_Echo_Pin);
 
-  Serial.print("Right Distance: ");
-  Serial.print(Right_Distance);
-  Serial.print(" cm");
-
-  Serial.print("  Right Front Distance: ");
-  Serial.print(Right_Front_Distance);
-  Serial.print(" cm");
-
-  Serial.print("  Front Distance: ");
-  Serial.print(Front_Distance);
+  Serial.print("Left Distance: ");
+  Serial.print(Left_Distance);
   Serial.print(" cm");
 
   Serial.print("  Left Front Distance: ");
   Serial.print(Left_Front_Distance);
   Serial.print(" cm");
 
-  Serial.print("  Left Distance: ");
-  Serial.print(Left_Distance);
+  Serial.print("  Front Distance: ");
+  Serial.print(Front_Distance);
+  Serial.print(" cm");
+
+  Serial.print("  Right Front Distance: ");
+  Serial.print(Right_Front_Distance);
+  Serial.print(" cm");
+
+  Serial.print("  Right Distance: ");
+  Serial.print(Right_Distance);
   Serial.print(" cm");
 
   Serial.println();
