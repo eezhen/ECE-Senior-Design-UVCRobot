@@ -51,21 +51,21 @@ http://wiki.ros.org/catkin/Tutorials/create_a_workspace
 7. On RPi
   1st Terminal:
   
-    $$ cd catkin_ws
+    $ cd catkin_ws
     
-    $$ catkin_make
+    $ catkin_make
     
-    $$ source devel/setup.bash
+    $ source devel/setup.bash
     
-    $$ export ROS_MASTER_URI=http://RPi-IP:11311
+    $ export ROS_MASTER_URI=http://RPi-IP:11311
     
-    $$ export ROS_IP=RPi-IP
+    $ export ROS_IP=RPi-IP
     
-    $$ roslaunch freenect_launch freenect.launch depth_registration:=true
+    $ roslaunch freenect_launch freenect.launch depth_registration:=true
 
   2nd Terminal:
   
-    $$ roslaunch rtabmap_ros rgbd_mapping.launch rtabmap_args:="--delete_db_on_start rtabmapviz:=false
+    $ roslaunch rtabmap_ros rgbd_mapping.launch rtabmap_args:="--delete_db_on_start rtabmapviz:=false
 
 8. On VM
     
@@ -75,4 +75,4 @@ http://wiki.ros.org/catkin/Tutorials/create_a_workspace
     
     $ rviz
     
-  Then configure the MapGraph and MapCloud settings to see mapping start
+ Then configure the MapGraph and MapCloud settings to see mapping start
