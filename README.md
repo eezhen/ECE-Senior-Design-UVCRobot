@@ -49,6 +49,7 @@ http://wiki.ros.org/catkin/Tutorials/create_a_workspace
 (sudo apt-get install ros-noetic-rtabmap-ros)
 
 7. On RPi
+  
   1st Terminal:
   
     $ cd catkin_ws
