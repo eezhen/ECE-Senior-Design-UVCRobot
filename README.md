@@ -1,4 +1,5 @@
 **# ECE-Senior-Design-UVCRobot**
+
 **Hardwares:**
 - Raspberry Pi 4 (2 GB more is better) with SD cards (32 GB storage is enough)
 - Kinect V1                   (need a specialized adapter for connecting to RPi and being powered at the same time)
@@ -13,6 +14,7 @@
 
 
 **Softwares:**
+
 **For USB serial conmmunication (RPi to Ardu to RPi):**
 1. Make sure Arduino is written 
 (It can be tested with any test.ino in my folders, be careful with wiring and pins defining)
